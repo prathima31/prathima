@@ -1,0 +1,367 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-30T09:46:34.755Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6348000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Launch Bunnings application",
+        "description": "",
+        "id": "launch-application;launch-bunnings-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1894000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6650000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I launch the application",
+            "match": {
+              "location": "steps.LaunchApp.iLaunchTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1189000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I should see the home page",
+            "match": {
+              "location": "steps.LaunchApp.iShouldSeeTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Launch Application",
+    "description": "  This feature launches the application and validates if home page is displayed successfully",
+    "id": "launch-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LaunchApplication.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Launch application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5902000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I launch the application",
+            "match": {
+              "location": "steps.LaunchApp.iLaunchTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I should see the home page",
+            "match": {
+              "location": "steps.LaunchApp.iShouldSeeTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T09:46:50.943Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2447000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify if search box is displayed",
+        "description": "",
+        "id": "search-feature;verify-if-search-box-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 1259000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I should see the search box",
+            "match": {
+              "location": "steps.Search.iShouldSeeTheSearchBox()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchBox"
+          },
+          {
+            "name": "@Search_TC002"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Launch application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5818000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I launch the application",
+            "match": {
+              "location": "steps.LaunchApp.iLaunchTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 674000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I should see the home page",
+            "match": {
+              "location": "steps.LaunchApp.iShouldSeeTheHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T09:47:01.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify the text inside the search box",
+        "description": "",
+        "id": "search-feature;verify-the-text-inside-the-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 1361000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I should see the search box",
+            "match": {
+              "location": "steps.Search.iShouldSeeTheSearchBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I validate the text inside the search box",
+            "match": {
+              "location": "steps.Search.ValidateTheText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SearchBox"
+          },
+          {
+            "name": "@Search_TC003"
+          }
+        ]
+      }
+    ],
+    "name": "Search feature",
+    "description": "  This feature validates the search box availability",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Search.feature",
+    "tags": [
+      {
+        "name": "@SearchBox",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
